@@ -1,0 +1,23 @@
+.loading-indicator:before {
+    content: '';
+    background: #b8f1f8a6;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2147483647;
+}
+
+.loading-indicator:after {
+    content: 'Please wait...';
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    z-index: 2147483647;
+    color:rgb(27, 37, 39);
+    text-align:center;
+    font-weight:bold;
+    font-size:1.5rem;        
+}
